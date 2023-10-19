@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero-text{
+    /* font-size: 3.5rem; */
+    font-family: "Poppins",Sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+.navbar-brand{
+    padding: 10px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 50px;
+}
+.navbarli{
+    padding: 3px;
+    
+    margin: 10px 30px ;
+}
+.hero-rightContainer{
+    width: 60%;
+
+}
+.hero-leftContainer{
+    width: 30%;
+}
+.hero-rightContainer img{
+    width: 100%;
+}
+.stats-section{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.stats-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(213, 230, 244);
+    width: 80%;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.stats{
+    justify-content: center;
+    text-align: center;
+}
+.stats div h2{
+    color: rgb(6, 85, 59);
+    font-size: 52px;
+
+}
+.about p{
+    padding: 20px;
+}
+.about div h1{
+    padding: 20px;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-about{
+    padding: 20px;
+}
+.right-about{
+    padding: 20px;
+}
+.contact{
+    text-align: justify;
+    padding: 2% 2%;
+    color: #42446e;
+  }
+  .contact h1{
+      text-align: center;
+  }
+  .contact-container{
+    
+   
+      height: 15vh;
+  }
+  .contact-container  h3{
+      text-align: center;
+  
+  }
+  .contact-container  h2{
+      text-align: center;
+      color: #42446e;
+  
+  }
+  .gradient-email {
+      background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .contact-container button{
+    justify-content: center;
+    text-align: center;
+  }
+  .horizonatal-ruler{
+      
+      margin: 20px 100px;
+      padding: 1px;
+      height: 1px; /* Adjust the height of the hr element */
+      border: none; /* Remove the default border */
+      background: linear-gradient(to right, #ff00f7, #0004ff);
+  }
+  .footer-container h6{
+      text-align: center;
+  }
+  .footer-credits{
+      background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  /* .footer-big-container{
+    display: flex;
+  } */
+  
+  .footer-contents ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    flex-wrap: wrap;
+  }
+  .footer-contents ul li{
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 28px;
+  }
+  .footer-contents ul li a{
+    text-decoration: none;
+  }
+  .footer-social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+  
+  }
+  .footer-social ul li{
+    width: 40px;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+  }
+  .footer-social ul li a img{
+    width: 100%;
+    
+  }
+  .footer-social ul li a img:hover{
+    transform: scale(1.2);
+  }
+  
+  
+
+@media only screen and (max-width: 874px) {
+    .container{
+        flex-direction: column;
+    }
+    .hero-text{
+        /* font-size: 3.5rem; */
+        font-family: "Poppins",Sans-serif;
+        
+        
+    }
+    .stats-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(213, 230, 244);
+        width: 80%;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+        
+    }
+    .small-text{
+        font-size: 12px;
+        text-orientation: sideways;
+    }
+    .hero-leftContainer{
+        width: 80%;
+    }
+    .hero-rightContainer{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 544px) {
+    .container{
+        flex-direction: column;
+    }
+    .hero-text{
+        /* font-size: 3.5rem; */
+        font-family: "Poppins",Sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        
+    }
+    .stats-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(213, 230, 244);
+        width: 80%;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+        
+    }
+    .small-text{
+        font-size: 12px;
+        text-orientation: sideways;
+    }
+    .hero-leftContainer{
+        width: 80%;
+    }
+    .hero-rightContainer{
+        width: 80%;
+    }
+  }
